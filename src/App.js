@@ -1,12 +1,53 @@
 import "./App.css";
+import NewsPage from "./NewsPage";
 
 function App() {
   return (
     <>
-    <Phone features={phoneApps} />
+      <Phone features={phoneApps} />
+      <NewsPage news={newsArray}/>
     </>
   );
 }
+
+
+const newsArray = [
+  {
+    id: 1,
+    heading: "WHY I'M SUING THE US GOVERNMENT",
+    site: "bunnystudios.com",
+    text:"234 points by Ivan 11hrs ago"
+  },
+
+  {
+    id: 2,
+    heading: "ZENZIZENZIZENZIC",
+    site: "wikipedia.org",
+    text:"140 points by Franco 1hr ago"
+  },
+
+  {
+    id: 3,
+    heading: "A PRACTICAL SECURITY GUIDE FOR WEB DEVELOPERS ",
+    site: "github.com",
+    text:"72 points by Zanwar 2days ago"
+  },
+  {
+    id: 4,
+    heading: "I GOT ARRESTED IN KAZAKSTAN AND REPRESENTED MYSEL IN COURT",
+    site: "medium.com",
+    text:"370 points by Drapp 36 hrs ago"
+  },
+  {
+    id: 5,
+    heading: "EXAGGERATED HOUSE PRICES IN LA",
+    site: "dougemocune.com",
+    text:"300 points by Franco 1wk ago"
+  }
+
+]
+
+
 
 const phoneApps = [
   {

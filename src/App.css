@@ -77,3 +77,82 @@
   right: 15px;
   font-weight: 400;
 }
+
+.news-page {
+  border: 1px solid black;
+  margin-top: 5%;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 10%;
+  border-radius: 10px;
+}
+.headline {
+  display: flex;
+  border-bottom: 1px solid black;
+  align-items: center;
+  background-color: rgb(238, 69, 8);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.headline h3 {
+  font-family: cursive;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  flex: 40%;
+  text-shadow: 5px 5px 10px black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex: 60%;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid blanchedalmond;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  box-shadow: 0px 13px 10px black;
+  transform: rotate(-4deg);
+}
+
+.nav-item h4 {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.news-item {
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.news-line {
+  background-color: rgb(238, 237, 237);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.tittle {
+  font-family: monospace;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.website {
+  font-family: cursive;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.message {
+  font-family: cursive;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
